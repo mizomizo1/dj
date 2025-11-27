@@ -5,7 +5,7 @@ export default function ForOrganizers() {
     'clubasia',
     'WOMB',
     'ageHa (Memory)',
-    'Circus Tokyo',
+    'Circus Osaka',
     'Contact',
     'Sound Museum Vision'
   ];

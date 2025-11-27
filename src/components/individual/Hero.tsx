@@ -13,7 +13,7 @@ export default function Hero() {
             DJ SEIKO
           </h1>
           <div className="flex items-center justify-center gap-3 text-sm md:text-base tracking-widest text-gray-400">
-            <span>TOKYO</span>
+            <span>Osaka</span>
             <span className="w-1 h-1 rounded-full bg-[#A855F7]"></span>
             <span>HOUSE</span>
             <span className="w-1 h-1 rounded-full bg-[#A855F7]"></span>
