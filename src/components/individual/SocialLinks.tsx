@@ -1,10 +1,11 @@
-import { Instagram, Music2, Youtube } from 'lucide-react';
+import { Music2 } from 'lucide-react';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default function SocialLinks() {
   const socials = [
     {
       name: 'Instagram',
-      icon: <Instagram className="w-6 h-6" />,
+      icon: <InstagramIcon className="w-6 h-6" />,
       url: 'https://www.instagram.com/04hokies12?igsh=YmRkMGlqc2VjbGRz',
       color: 'hover:bg-linear-to-br hover:from-purple-500 hover:to-pink-500'
     },
@@ -13,12 +14,6 @@ export default function SocialLinks() {
       icon: <Music2 className="w-6 h-6" />,
       url: '#',
       color: 'hover:bg-black'
-    },
-    {
-      name: 'YouTube',
-      icon: <Youtube className="w-6 h-6" />,
-      url: '#',
-      color: 'hover:bg-red-600'
     },
   ];
 
