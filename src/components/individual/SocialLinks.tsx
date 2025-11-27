@@ -1,11 +1,11 @@
 import { Music2 } from 'lucide-react';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { SiInstagram } from "react-icons/si";
 
 export default function SocialLinks() {
   const socials = [
     {
       name: 'Instagram',
-      icon: <InstagramIcon className="w-6 h-6" />,
+      icon: <SiInstagram className="w-6 h-6" />,
       url: 'https://www.instagram.com/04hokies12?igsh=YmRkMGlqc2VjbGRz',
       color: 'hover:bg-linear-to-br hover:from-purple-500 hover:to-pink-500'
     },
@@ -13,7 +13,7 @@ export default function SocialLinks() {
       name: 'Mixcloud',
       icon: <Music2 className="w-6 h-6" />,
       url: 'https://www.mixcloud.com/04hokies12/?utm_source=ig&utm_medium=social&utm_content=link_in_bio',
-      color: 'hover:bg-black'
+      color: 'hover:bg-linear-to-br hover:from-blue-500 hover:to-purple-700'
     },
   ];
 
