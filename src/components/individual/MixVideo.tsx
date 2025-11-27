@@ -21,12 +21,6 @@ export default function MixVideo() {
       thumbnail: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=300&h=300&fit=crop',
       url: '#'
     },
-    {
-      title: 'Sunrise Session',
-      duration: '38min',
-      thumbnail: 'https://images.unsplash.com/photo-1571266028243-d220c6d2b3f3?w=300&h=300&fit=crop',
-      url: '#'
-    }
   ];
 
   return (

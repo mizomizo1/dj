@@ -12,15 +12,6 @@ export default function GigInfo() {
       mapUrl: '#',
       flyer: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop'
     },
-    {
-      date: '2025.02.18',
-      venue: 'WOMB',
-      time: 'Open 22:00 / Start 23:00',
-      lineup: 'DJ SEIKO / HIROSHI / AIKO',
-      ticketUrl: '#',
-      mapUrl: '#',
-      flyer: 'https://images.unsplash.com/photo-1571266028243-d220c6d2b3f3?w=400&h=400&fit=crop'
-    }
   ];
 
   return (

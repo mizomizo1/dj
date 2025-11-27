@@ -75,12 +75,36 @@ export default function ForOrganizers() {
 
         {/* Booking Button */}
         <a
-          href="#"
-          className="block w-full h-[52px] md:h-14 bg-linear-to-r from-[#A855F7] to-[#22D3EE] rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-[#A855F7]/20 items-center justify-center gap-2 text-sm md:text-base"
-        >
-          <span>📩</span>
-          <span>ブッキングフォーム</span>
-        </a>
+  href="/booking"
+  className="
+    flex items-center justify-center 
+    w-full h-[56px] md:h-14
+    bg-linear-to-r from-[#A855F7] to-[#22D3EE]
+    rounded-xl
+    font-semibold tracking-wide
+    text-white
+    hover:opacity-95 hover:shadow-[#A855F7]/30
+    transition-all duration-200
+    shadow-lg shadow-[#A855F7]/20
+    gap-3
+  "
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="w-5 h-5"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M16 12H8m0 0l4-4m-4 4l4 4"
+    />
+  </svg>
+  <span>出演依頼を送る</span>
+</a>
       </div>
     </section>
   );
