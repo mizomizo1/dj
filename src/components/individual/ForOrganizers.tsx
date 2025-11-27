@@ -78,7 +78,7 @@ export default function ForOrganizers() {
   href="/booking"
   className="
     flex items-center justify-center 
-    w-full h-[56px] md:h-14
+    w-full h-14 md:h-14
     bg-linear-to-r from-[#A855F7] to-[#22D3EE]
     rounded-xl
     font-semibold tracking-wide

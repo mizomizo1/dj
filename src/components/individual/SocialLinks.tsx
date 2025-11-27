@@ -57,27 +57,6 @@ export default function SocialLinks() {
           </a>
         ))}
       </div>
-
-      {/* All Links Button */}
-      <a
-        href="#"
-        className="block w-full h-[52px] md:h-14 border border-gray-800 rounded-xl hover:border-[#A855F7] hover:bg-[#A855F7]/10 transition-all items-center justify-center text-sm md:text-base"
-      >
-        すべてのリンクを見る
-      </a>
-
-      {/* LINE Open Chat */}
-      <div className="mt-6 p-5 md:p-6 bg-linear-to-br from-[#06C755]/20 to-transparent border border-[#06C755]/30 rounded-2xl text-center">
-        <div className="text-2xl md:text-3xl mb-2">💚</div>
-        <h3 className="mb-1 text-base md:text-lg">LINEオープンチャット</h3>
-        <p className="text-sm md:text-base text-gray-400 mb-4">ファンコミュニティに参加</p>
-        <a
-          href="#"
-          className="inline-block px-6 py-2 bg-[#06C755] rounded-full text-sm md:text-base hover:bg-[#06C755]/80 transition-colors"
-        >
-          参加する
-        </a>
-      </div>
     </section>
   );
 }
