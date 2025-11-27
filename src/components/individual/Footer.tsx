@@ -2,12 +2,12 @@ export default function Footer() {
   return (
     <footer className="px-6 md:px-12 py-12 border-t border-gray-900">
       <div className="text-center space-y-4">
-        <h2 className="text-2xl md:text-3xl tracking-[0.3em]">DJ NEXUS</h2>
+        <h2 className="text-2xl md:text-3xl tracking-[0.3em]">DJ SEIKO</h2>
         <p className="text-sm md:text-base text-gray-500">
           Tokyo Based DJ / House, Techno
         </p>
         <div className="pt-6 text-xs md:text-sm text-gray-600">
-          © 2025 DJ NEXUS. All rights reserved.
+          © 2025 DJ SEIKO. All rights reserved.
         </div>
       </div>
     </footer>
