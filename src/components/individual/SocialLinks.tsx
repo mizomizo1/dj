@@ -10,9 +10,9 @@ export default function SocialLinks() {
       color: 'hover:bg-linear-to-br hover:from-purple-500 hover:to-pink-500'
     },
     {
-      name: 'TikTok',
+      name: 'Mixcloud',
       icon: <Music2 className="w-6 h-6" />,
-      url: '#',
+      url: 'https://www.mixcloud.com/04hokies12/?utm_source=ig&utm_medium=social&utm_content=link_in_bio',
       color: 'hover:bg-black'
     },
   ];

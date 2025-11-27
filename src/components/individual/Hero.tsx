@@ -10,7 +10,7 @@ export default function Hero() {
         {/* DJ Name/Logo */}
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl lg:text-8xl tracking-[0.2em] animate-fade-in">
-            DJ SEIKO
+            DJ Seikoh
           </h1>
           <div className="flex items-center justify-center gap-3 text-sm md:text-base tracking-widest text-gray-400">
             <span>Osaka</span>

@@ -7,7 +7,7 @@ export default function GigInfo() {
       date: '2025.02.11',
       venue: 'clubasia',
       time: 'Open 23:00 / Start 24:00',
-      lineup: 'DJ SEIKO / KENTO / MAYA',
+      lineup: 'DJ Seikoh / KENTO / MAYA',
       ticketUrl: '#',
       mapUrl: '#',
       flyer: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop'
