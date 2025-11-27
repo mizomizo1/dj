@@ -1,11 +1,11 @@
-import { Instagram, Twitter, Music2, MessageCircle, Youtube } from 'lucide-react';
+import { Instagram, Music2, Youtube } from 'lucide-react';
 
 export default function SocialLinks() {
   const socials = [
     {
       name: 'Instagram',
       icon: <Instagram className="w-6 h-6" />,
-      url: '#',
+      url: 'https://www.instagram.com/04hokies12?igsh=YmRkMGlqc2VjbGRz',
       color: 'hover:bg-linear-to-br hover:from-purple-500 hover:to-pink-500'
     },
     {
@@ -15,23 +15,11 @@ export default function SocialLinks() {
       color: 'hover:bg-black'
     },
     {
-      name: 'X (Twitter)',
-      icon: <Twitter className="w-6 h-6" />,
-      url: '#',
-      color: 'hover:bg-black'
-    },
-    {
       name: 'YouTube',
       icon: <Youtube className="w-6 h-6" />,
       url: '#',
       color: 'hover:bg-red-600'
     },
-    {
-      name: 'Discord',
-      icon: <MessageCircle className="w-6 h-6" />,
-      url: '#',
-      color: 'hover:bg-indigo-600'
-    }
   ];
 
   return (
