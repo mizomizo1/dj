@@ -61,7 +61,7 @@ export default function SocialLinks() {
       {/* All Links Button */}
       <a
         href="#"
-        className="block w-full h-[52px] md:h-[56px] border border-gray-800 rounded-xl hover:border-[#A855F7] hover:bg-[#A855F7]/10 transition-all flex items-center justify-center text-sm md:text-base"
+        className="block w-full h-[52px] md:h-14 border border-gray-800 rounded-xl hover:border-[#A855F7] hover:bg-[#A855F7]/10 transition-all items-center justify-center text-sm md:text-base"
       >
         すべてのリンクを見る
       </a>

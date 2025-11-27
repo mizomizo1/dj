@@ -61,7 +61,7 @@ export default function MixVideo() {
               alt={mix.title}
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-4">
+            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-4">
               <p className="text-sm md:text-base mb-1">{mix.title}</p>
               <p className="text-xs md:text-sm text-gray-400">{mix.duration}</p>
             </div>

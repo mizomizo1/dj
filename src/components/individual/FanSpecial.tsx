@@ -29,7 +29,7 @@ export default function FanSpecial() {
   ];
 
   return (
-    <section className="px-6 md:px-12 py-20 bg-gradient-to-b from-transparent via-[#22D3EE]/5 to-transparent">
+    <section className="px-6 md:px-12 py-20 bg-linear-to-b from-transparent via-[#22D3EE]/5 to-transparent">
       <h2 className="text-3xl md:text-4xl tracking-[0.3em] text-center mb-12">
         <span className="border-b-2 border-[#A855F7] pb-2">FAN SPECIAL</span>
       </h2>
@@ -39,10 +39,10 @@ export default function FanSpecial() {
           <a
             key={index}
             href="#"
-            className="group block p-6 md:p-8 border border-gray-800 rounded-2xl hover:border-[#A855F7]/50 transition-all bg-gradient-to-br from-gray-900/30 to-transparent hover:shadow-lg hover:shadow-[#A855F7]/10"
+            className="group block p-6 md:p-8 border border-gray-800 rounded-2xl hover:border-[#A855F7]/50 transition-all bg-linear-to-br from-gray-900/30 to-transparent hover:shadow-lg hover:shadow-[#A855F7]/10"
           >
             <div className="flex items-start gap-4">
-              <div className={`flex-shrink-0 w-12 h-12 md:w-14 md:h-14 rounded-xl bg-linear-to-br ${special.color} to-transparent flex items-center justify-center group-hover:scale-110 transition-transform`}>
+              <div className={`shrink-0 w-12 h-12 md:w-14 md:h-14 rounded-xl bg-linear-to-br ${special.color} to-transparent flex items-center justify-center group-hover:scale-110 transition-transform`}>
                 {special.icon}
               </div>
               <div className="flex-1">
@@ -68,9 +68,9 @@ export default function FanSpecial() {
         <input
           type="password"
           placeholder="パスワードを入力"
-          className="w-full h-[48px] md:h-[52px] px-4 bg-gray-900 border border-gray-700 rounded-xl text-white placeholder:text-gray-600 focus:outline-none focus:border-[#A855F7] transition-colors text-sm md:text-base"
+          className="w-full h-12 md:h-[52px] px-4 bg-gray-900 border border-gray-700 rounded-xl text-white placeholder:text-gray-600 focus:outline-none focus:border-[#A855F7] transition-colors text-sm md:text-base"
         />
-        <button className="mt-3 w-full h-[48px] md:h-[52px] bg-gradient-to-r from-[#A855F7]/20 to-[#22D3EE]/20 border border-[#A855F7]/30 rounded-xl hover:border-[#A855F7]/50 transition-colors text-sm md:text-base">
+        <button className="mt-3 w-full h-12 md:h-[52px] bg-linear-to-r from-[#A855F7]/20 to-[#22D3EE]/20 border border-[#A855F7]/30 rounded-xl hover:border-[#A855F7]/50 transition-colors text-sm md:text-base">
           ログイン
         </button>
       </div>

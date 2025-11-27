@@ -57,14 +57,14 @@ export default function GigInfo() {
               <div className="grid grid-cols-2 gap-3 pt-4">
                 <a
                   href={gig.ticketUrl}
-                  className="flex items-center justify-center gap-2 h-[48px] md:h-[52px] bg-[#A855F7] rounded-xl hover:bg-[#A855F7]/80 transition-colors text-sm md:text-base"
+                  className="flex items-center justify-center gap-2 h-12 md:h-[52px] bg-[#A855F7] rounded-xl hover:bg-[#A855F7]/80 transition-colors text-sm md:text-base"
                 >
                   <Ticket className="w-5 h-5" />
                   <span>チケット予約</span>
                 </a>
                 <a
                   href={gig.mapUrl}
-                  className="flex items-center justify-center gap-2 h-[48px] md:h-[52px] border border-gray-700 rounded-xl hover:bg-gray-800 transition-colors text-sm md:text-base"
+                  className="flex items-center justify-center gap-2 h-12 md:h-[52px] border border-gray-700 rounded-xl hover:bg-gray-800 transition-colors text-sm md:text-base"
                 >
                   <MapPin className="w-5 h-5" />
                   <span>Google Map</span>

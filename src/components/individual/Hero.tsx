@@ -2,7 +2,7 @@ import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[100vh] flex flex-col items-center justify-center px-6 md:px-12 py-12">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 md:px-12 py-12">
       {/* Noise texture overlay */}
       <div className="absolute inset-0 opacity-[0.03] bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGQ9Ik0wIDBoMzAwdjMwMEgweiIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIuMDUiLz48L3N2Zz4=')]"></div>
       
@@ -31,12 +31,12 @@ export default function Hero() {
           </div>
           <button className="mt-4 text-sm md:text-base text-[#22D3EE] hover:text-[#22D3EE]/80 transition-colors flex items-center gap-2 mx-auto">
             <span>詳細を見る</span>
-            <ChevronDown className="w-4 h-4 rotate-[-90deg]" />
+            <ChevronDown className="w-4 h-4 -rotate-90" />
           </button>
         </div>
 
         {/* CTA Button */}
-        <button className="mt-8 w-full max-w-sm h-[52px] md:h-[56px] bg-gradient-to-r from-[#A855F7] to-[#22D3EE] rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-[#A855F7]/20 mx-auto text-sm md:text-base">
+        <button className="mt-8 w-full max-w-sm h-[52px] md:h-14 bg-linear-to-r from-[#A855F7] to-[#22D3EE] rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-[#A855F7]/20 mx-auto text-sm md:text-base">
           👉 最新の出演情報はこちら
         </button>
       </div>

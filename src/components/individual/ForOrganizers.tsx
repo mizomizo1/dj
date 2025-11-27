@@ -76,7 +76,7 @@ export default function ForOrganizers() {
         {/* Booking Button */}
         <a
           href="#"
-          className="block w-full h-[52px] md:h-[56px] bg-gradient-to-r from-[#A855F7] to-[#22D3EE] rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-[#A855F7]/20 flex items-center justify-center gap-2 text-sm md:text-base"
+          className="block w-full h-[52px] md:h-14 bg-linear-to-r from-[#A855F7] to-[#22D3EE] rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-[#A855F7]/20 items-center justify-center gap-2 text-sm md:text-base"
         >
           <span>📩</span>
           <span>ブッキングフォーム</span>
